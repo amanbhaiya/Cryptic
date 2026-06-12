@@ -34,7 +34,7 @@ To add Cryptic to your Maven project, add the following dependency to your `pom.
 
 ```xml
 <dependency>
-  <groupId>com.corebridge</groupId>
+  <groupId>io.github.amanbhaiya</groupId>
   <artifactId>cryptic</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -45,7 +45,7 @@ To add Cryptic to your Maven project, add the following dependency to your `pom.
 For Gradle projects, add the following to your `build.gradle` file:
 
 ```groovy
-implementation 'com.corebridge:cryptic:1.0.0'
+implementation 'io.github.amanbhaiya:cryptic:1.0.0'
 ```
 
 ## Core Concepts
