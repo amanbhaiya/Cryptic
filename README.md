@@ -1,7 +1,9 @@
 # Cryptic: A Modern Java Cryptography Wrapper Library
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.amanbhaiya/cryptic.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.amanbhaiya%22%20AND%20a:%22cryptic%22)
+
 
 Cryptic is a lightweight and easy-to-use Java library that simplifies common cryptographic operations. It provides a high-level, fluent API for hashing, digital signatures, and both symmetric and asymmetric encryption, making it easy to secure your applications without needing to dive into the complexities of the Java Cryptography Architecture (JCA).
 
@@ -18,6 +20,8 @@ Cryptic is a lightweight and easy-to-use Java library that simplifies common cry
   - [Asymmetric Encryption with Digital Signatures](#5-asymmetric-encryption-with-digital-signatures)
 - [Error Handling](#error-handling)
 - [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -45,7 +49,7 @@ To add Cryptic to your Maven project, add the following dependency to your `pom.
 For Gradle projects, add the following to your `build.gradle` file:
 
 ```groovy
-implementation 'io.github.amanbhaiya:cryptic:1.0.0'
+implementation 'io.github.amanbhaiya:cryptic:1.0.0ß'
 ```
 
 ## Core Concepts
@@ -196,3 +200,11 @@ The library uses enums to ensure you are using valid and secure algorithms and t
 - **`KeyAlgorithm`**: `AES`, `RSA`
 - **`SymmetricTransformation`**: `AES_GCM_NO_PADDING`
 - **`AsymmetricTransformation`**: `RSA_ECB_OAEP_WITH_SHA_256_AND_MGF1_PADDING`
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on GitHub. If you would like to contribute code, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
